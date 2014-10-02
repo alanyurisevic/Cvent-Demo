@@ -74,7 +74,7 @@ function getMenuItem(itemData) {
 	$("<a>", {
 		href:  itemData.href,
 		html: itemData.text,
-		class: classname
+		'class': classname
 	}));
 	if (itemData.sub) {
 		var subList = $("<ul>");
